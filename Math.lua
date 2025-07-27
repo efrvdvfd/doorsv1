@@ -1,4 +1,5 @@
--- Math lib fo solaris bc if i put this in solaris, your game will crash...
+-- seperate Math lib for solaris because when i tried including this in solaris, it kept crashing... 
+-- yes this lib is open source because Solaris being obfuscated is already enough
 for i = 1, 600 do
     local dummyVar = i * 2
     if dummyVar % 2 == 0 then
